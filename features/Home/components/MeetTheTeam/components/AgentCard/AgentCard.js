@@ -22,7 +22,7 @@ const AgentCard = ({name, image, description, title}) => {
             <Text
             color='blue.400'
             fontSize='xl'
-            fontWeigth='bold'>{name}
+            fontWeight='bold'>{name}
             </Text>
 
             <Text
@@ -34,7 +34,7 @@ const AgentCard = ({name, image, description, title}) => {
 
             <Text
             fontSize='md'
-            fontWeigth='light'
+            fontWeight='light'
             noOfLines='4'
             marginTop='1rem'
             color='gray.600'>

@@ -14,8 +14,10 @@ const PropertyCard = (property) => {
         baths,
         purpose,
         sqSize,
-        externalID
+        externalID,
+        amenities
     } = usePropertyFormat(property)
+ 
     return(
         <Box
         marginBottom = '4rem'
